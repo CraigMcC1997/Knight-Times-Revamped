@@ -7,6 +7,7 @@ public class ButtonUI : MonoBehaviour
 {
     [SerializeField] private string newGameLevel = "Level1";
     [SerializeField] private string ControlsScene = "Controls";
+    [SerializeField] private string SettingsScene = "Settings";
 
     public void StartGameButton()
     {
@@ -20,7 +21,7 @@ public class ButtonUI : MonoBehaviour
     
     public void OpenSettingsButton()
     {
-       //fill this in
+        SceneManager.LoadScene(SettingsScene);
     }
 
     public void ExitGameButton()

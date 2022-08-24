@@ -748,6 +748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newGameLevel: Level1
   ControlsScene: Controls
+  SettingsScene: Settings
 --- !u!4 &548163502
 Transform:
   m_ObjectHideFlags: 0
