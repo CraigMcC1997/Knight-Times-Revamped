@@ -747,6 +747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newGameLevel: Level1
+  ControlsScene: Controls
 --- !u!4 &548163502
 Transform:
   m_ObjectHideFlags: 0
@@ -1697,7 +1698,7 @@ GameObject:
   - component: {fileID: 1299175529}
   - component: {fileID: 1299175528}
   m_Layer: 5
-  m_Name: Display Controlls Button
+  m_Name: Display Controls Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
