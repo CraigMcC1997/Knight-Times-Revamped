@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelSwitcher : MonoBehaviour
 {
-    public GameObject gm;
+    public GameObject gameUI;
     private ScoreManager scoreManager;
 
     [SerializeField] private string nextLevel = "Boss Fight 1";
@@ -13,7 +13,7 @@ public class LevelSwitcher : MonoBehaviour
 
     void Start()
     {
-        scoreManager = gm.GetComponent<ScoreManager>();
+        scoreManager = gameUI.GetComponent<ScoreManager>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

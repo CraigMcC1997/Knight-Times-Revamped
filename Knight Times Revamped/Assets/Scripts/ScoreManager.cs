@@ -23,6 +23,6 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TextScore.text = "COINS: " + score.ToString();
+        TextScore.text = ": " + score.ToString() + "/7";
     }
 }
