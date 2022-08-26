@@ -5123,6 +5123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7606122d63b1c74fac8211e0661cd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gm: {fileID: 1249702732}
   nextLevel: Boss Fight 1
 --- !u!4 &1557767265
 Transform:
@@ -7878,11 +7879,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1348364378861600641, guid: 33cdab48f6d4b4e4791f214a72781a72, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.02
+      value: -7.57
       objectReference: {fileID: 0}
     - target: {fileID: 1348364378861600641, guid: 33cdab48f6d4b4e4791f214a72781a72, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.45
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: 1348364378861600641, guid: 33cdab48f6d4b4e4791f214a72781a72, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7970,6 +7971,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e290ca083bdf14b41bbe3e8349457b78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  lives: 5
   gm: {fileID: 1249702732}
