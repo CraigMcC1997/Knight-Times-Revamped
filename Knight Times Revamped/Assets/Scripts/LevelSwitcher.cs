@@ -8,8 +8,8 @@ public class LevelSwitcher : MonoBehaviour
     public GameObject gameUI;
     private ScoreManager scoreManager;
 
-    [SerializeField] private string nextLevel = "Boss Fight 1";
-    [SerializeField] private const int MAX_COINS = 7;
+    public string nextLevel = "Boss Fight 1";
+    public const int MAX_COINS = 7;
 
     void Start()
     {

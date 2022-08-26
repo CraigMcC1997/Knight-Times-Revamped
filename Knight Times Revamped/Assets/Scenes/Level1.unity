@@ -4904,6 +4904,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1598193508}
   TextHealth: {fileID: 1093258937}
+  player: {fileID: 1045367901}
+  deathScene: DeathScreen
   health: 0
 --- !u!1 &1323848233
 GameObject:
@@ -5659,7 +5661,7 @@ GameObject:
   - component: {fileID: 1557767264}
   - component: {fileID: 1557767266}
   m_Layer: 0
-  m_Name: MoveLevels
+  m_Name: SceneSwitcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

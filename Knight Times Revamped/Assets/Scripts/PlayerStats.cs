@@ -26,7 +26,8 @@ public class PlayerStats : MonoBehaviour
         //have player take damage when colliding with enemy
         if (collision.gameObject.name == "Light" ||
             collision.gameObject.name == "Ranged" ||
-            collision.gameObject.name == "Heavy")
+            collision.gameObject.name == "Heavy" ||
+            collision.gameObject.name == "Heavy-Bull")
         {
             healthManager.takeDamage();
         }
