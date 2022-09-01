@@ -8,7 +8,9 @@ public class ButtonUI : MonoBehaviour
     [SerializeField] private string newGameLevel = "Level1";
     [SerializeField] private string ControlsScene = "Controls";
     [SerializeField] private string SettingsScene = "Settings";
+    [SerializeField] private string MainMenuScene = "Main Menu";
 
+    //main menu
     public void StartGameButton()
     {
         SceneManager.LoadScene(newGameLevel); 
@@ -27,5 +29,11 @@ public class ButtonUI : MonoBehaviour
     public void ExitGameButton()
     {
         Application.Quit();
+    }
+
+    //controls page
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(MainMenuScene);
     }
 }

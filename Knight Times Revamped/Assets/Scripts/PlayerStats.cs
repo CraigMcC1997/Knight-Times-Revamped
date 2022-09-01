@@ -31,5 +31,12 @@ public class PlayerStats : MonoBehaviour
         {
             healthManager.takeDamage();
         }
+
+        //player gets hit by projectile
+        if (collision.gameObject.name == "Projectile(Clone)")
+        {
+            healthManager.takeDamage();
+            Destroy(collision.gameObject);
+        }
     }
 }
